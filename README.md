@@ -24,7 +24,7 @@ Estamos utilizando Autenticação Bearer para acesso aos webservices
 
 *Para gerar o token de acesso bearer utilize a seguinte rota:*
 
-```/login_ws (get)```
+```/login_ws (post)```
 *envie os campos login e senha no body, conforme credenciais acima
 
 
@@ -35,7 +35,7 @@ Estamos utilizando Autenticação Bearer para acesso aos webservices
 
 *Para carregar todos os pedidos utilize a seguinte rota:*
 
-```pedidos/list_ws (post)```
+```pedidos/list_ws (get)```
 
 
 Obrigado pela atenção! :-)

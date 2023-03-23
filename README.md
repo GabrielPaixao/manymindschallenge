@@ -2,24 +2,22 @@
 
 ### Segue algumas orientaçõs:
 
-1 - Acesse o sistema em: [seu_host]/ct
-
-2 - As credencias de acessos são:
+1 - As credencias de acessos são:
 
 ```
 login: gabriel.passion@gmail.com
 senha: 1q2w3e
 ```
 
-3 - Verifique também a configuração da base_url para o funcionamento adequado do sistema. 
+2 - Verifique também a configuração da base_url para o funcionamento adequado do sistema. 
 
 ``` $config['base_url'] = 'http://localhost/ct/';```
 
-4 - Atualize as configurações do seu banco de dados no arquivo ```config/database.php```.
+3 - Atualize as configurações do seu banco de dados no arquivo ```config/database.php```.
 
-5 - Carregue a base de dados através do dump que está na pasta db na raiz do projeto.
+4 - Carregue a base de dados através do dump que está na pasta db na raiz do projeto.
 
-6 - Também temos dois webservices disponíveis:
+5 - Também temos dois webservices disponíveis:
 
 #### IMPORTANTE:
 Estamos utilizando Autenticação Bearer para acesso aos webservices
